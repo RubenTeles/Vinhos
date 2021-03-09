@@ -1,0 +1,6 @@
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\obj\Debug\DALL.csprojAssemblyReference.cache
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\bin\Debug\DALL.dll.config
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\bin\Debug\DALL.dll
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\bin\Debug\DALL.pdb
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\obj\Debug\DALL.dll
+C:\Users\ruben\OneDrive\Área de Trabalho\Curso-2\Projeto\Vinhao_Aplicacao\DALL\obj\Debug\DALL.pdb
