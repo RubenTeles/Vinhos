@@ -7,7 +7,7 @@ Objetivo: Criar um site de vinhos com front office em web e back office em Windo
 Enunciado:
 Após reunião com o cliente foi-lhe pedido que implementa-se o seguinte projeto:
 Site de receitas com as seguintes características:
-Aplicação web para front office aplicação windows para back office.
+Aplicação web para front office aplicação windows para back office.\n
 • A aplicação web deverá implementar as seguintes funcionalidades:
 o Qualquer utilizador poderá pesquisar vinhos por diversos campos
 o Utilizadores registados
