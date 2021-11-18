@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Site_Vinhao.MasterPage.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Vinhos</title>
+    <link href="../CSS/MasterPageCSS.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <header class="margens border posicao">
+        <div id="rosto">
+
+            <img class="menu" src="../Imagens/Conteudo/titulo.png" />
+        </div>
+    </header>
+    <form id="form1" runat="server">
+        <nav class="margens border posicao">
+            <ul class="nav navbar-left">
+                <li class="nav-item">
+                    <a class="nav-link" href="../ASP/Home.aspx">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../ASP/Vinhos-Recentes.aspx">Vinhos Recentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../ASP/TopVinhos.aspx">Top Vinhos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../ASP/Procurar.aspx">Procurar</a>
+                </li>
+            </ul>
+            <asp:LoginView ID="LoginView1" runat="server">
+                <AnonymousTemplate>
+                    <ul class="nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ASP/Criar_Conta.aspx">Registar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ASP/login.aspx">Entrar</a>
+                        </li>
+                    </ul>
+                </AnonymousTemplate>
+                <LoggedInTemplate>
+                    <ul class="nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../UtilizadoresRegistados/CriarVinho.aspx">Criar Vinho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ASP/Perfil.aspx">Perfil</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                            </a>
+                        </li>
+                    </ul>
+                </LoggedInTemplate>
+            </asp:LoginView>
+        </nav>
+        <main class="margens posicao">
+            <asp:ContentPlaceHolder ID="main_content" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+    </form>
+    <footer class="margens posicao">
+        <span class="text-dark">Projeto Criado por: Ruben Teles</span><br />
+        <br />
+        <div class="contactos">
+            <a href="http://www.galileu.pt" target="_blank">
+                <img class="logo" src="../Imagens/Conteudo/logo_galileu.jpg" /></a>
+            <a href="https://www.instagram.com/rubendoutrodia/" target="_blank">
+                <img class="logo" src="../Imagens/Conteudo/Instagram.jpg" /></a>
+            <a href="https://www.linkedin.com/in/ruben-teles-2abb29184/" target="_blank">
+                <img class="logo" src="../Imagens/Conteudo/linkedin.jpg" /></a>
+        &nbsp;</div>
+
+    </footer>
+</body>
+</html>
